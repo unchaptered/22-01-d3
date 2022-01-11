@@ -1,7 +1,7 @@
 # Learning to D3
 
 이 저장소는 2022년 1월 11일부터 x월 xx일까지(x 일) 간,<br>
-데이터 시각화 대한 개념 및 기술을 배우기 위하여 작성된 코드들을 담고 있습니다.
+데이터 시각화에 대한 개념 및 기술을 배우기 위하여 작성된 코드들을 담고 있습니다.
 
 - Velog unchaptered / https://velog.io/@unchapterd/series/Dev-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94
 
