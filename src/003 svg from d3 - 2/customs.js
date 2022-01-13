@@ -14,8 +14,6 @@ const womanOfCustom=[
     { target:"50", gender:"여성", mount:2000 },
     { target:"60+", gender:"여성", mount:800 },
 ];
-// 그래프 3개 그릴 겁니다.
-// 성별 통합 그래프 / 남성 그래프 / 여성 그래프
 let allOfCustom=[];
 for (let index = 0; index<mansOfCustom.length; index++) {
     const { target, mount:manMount }=mansOfCustom[index];
@@ -28,8 +26,6 @@ for (let index = 0; index<mansOfCustom.length; index++) {
     });
 }
 
-// css 기획
-// 세로 막대기 그래프로...
 const rectSize=20;
 const rectX=rectSize+5;
 const backColor="white";
