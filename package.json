@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "데이터 시각화를 위한 D3 (JavaScript 오픈 소스 라이브러리)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/unchaptered/22-01-d3#readme",
   "dependencies": {
-    "d3": "^7.3.0"
+    "d3": "^7.3.0",
+    "echarts": "^5.2.2"
   }
 }
