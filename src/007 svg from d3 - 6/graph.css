@@ -1,0 +1,44 @@
+.graph {
+    transition: all 0.15s linear;
+    padding: 2;
+    display: flex;
+    stroke: black;
+    stroke-width: 2;
+}
+.graph:hover {
+    stroke: #6c5ce7;
+    stroke-width: 5;
+}
+
+.graph .graph__element__text {
+    opacity: 0;
+    stroke: black;
+    stroke-width: 1;
+    transition: all 0.15s linear;
+}
+.graph:hover .graph__element__text {
+    opacity: 1;
+    stroke: #6c5ce7;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* graph__element
+graph__element__text */
+
+.graph__guideline {
+    stroke: grey;
+    stroke-width: 1;
+    stroke-dasharray: 3;
+}
+.graph__guide__xy {
+    stroke: black;
+    stroke-width: 1;
+}
+.graph__guide__xy__text {
+    font-size: 15;
+    font-weight: 300;
+}
+
+.graph__toggle {
+    opacity: 0;
+}
