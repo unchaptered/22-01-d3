@@ -26,7 +26,7 @@ const textG=svgTag.append("g").attr("transform","translate(15,51)");
 let count=0;
 const rectSize=20;
 const rectY=rectSize+5;
-datas.forEach(({range,value})=>{
+datas.reverse().forEach(({range,value})=>{
     rectG.append("rect").attr("x",0).attr("y",rectY*count).attr("width",value*expandSize).attr("height",rectSize);
     textG.append("text").attr("x",0).attr("y",rectY*count).attr("font-size",16).text(range);
 
