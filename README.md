@@ -32,7 +32,7 @@ npm install d3
 
 이 프로젝트는 다음의 파일 구조를 가지고 있습니다.
 
->
+```
 ┌ index.html ─────── index 파일
 ├ index.js ───────── src 하위 index.html 파일 링크 생성 주입기(to index.html)
 ├ (package.json , ...)
@@ -55,6 +55,7 @@ npm install d3
 ├ ├ 006 svg from d3 - 5 ─── 선 그래프 (3종) ──────────── customs.js
 ├ ├ 007 svg from d3 - 6 ─── 선 그래프 (3종) ──────────── customs.js
 ├ ├  .......... 그 이후로 많은 파일
+```
 
 <hr>
 
